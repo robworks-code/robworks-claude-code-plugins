@@ -62,6 +62,24 @@
       "category": "infrastructure",
       "tags": ["mcp", "namecheap", "dns", "domains", "ssl", "registrar"],
       "keywords": ["namecheap", "mcp", "dns", "domains", "ssl", "registrar"]
+    },
+    {
+      "name": "xcode-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "ringo380/Xcode-mcp-server",
+        "ref": "v1.0.0"
+      },
+      "description": "Xcode MCP server — build projects and run tests from Claude Code with structured output, log persistence, and Xcode 15/16+ compatibility.",
+      "homepage": "https://github.com/ringo380/Xcode-mcp-server",
+      "repository": "https://github.com/ringo380/Xcode-mcp-server",
+      "license": "MIT",
+      "author": {
+        "name": "Ryan Robson and Robworks Software LLC"
+      },
+      "category": "developer-tools",
+      "tags": ["mcp", "xcode", "ios", "swift", "build", "tests", "apple"],
+      "keywords": ["xcode", "mcp", "ios", "swift", "build", "tests", "apple", "developer-tools"]
     }
   ]
 }
