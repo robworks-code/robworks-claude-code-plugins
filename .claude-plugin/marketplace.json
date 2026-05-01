@@ -68,7 +68,7 @@
       "source": {
         "source": "github",
         "repo": "ringo380/appstore-connect-mcp",
-        "ref": "v2.2.2"
+        "ref": "v2.2.3"
       },
       "description": "App Store Connect MCP server. Query 923 API endpoints and run authenticated calls — apps, reviews, sales reports, TestFlight, beta testers, and more.",
       "homepage": "https://github.com/ringo380/appstore-connect-mcp",
