@@ -98,6 +98,24 @@
       "category": "developer-tools",
       "tags": ["mcp", "xcode", "ios", "swift", "build", "tests", "apple"],
       "keywords": ["xcode", "mcp", "ios", "swift", "build", "tests", "apple", "developer-tools"]
+    },
+    {
+      "name": "cpanel-mcp",
+      "source": {
+        "source": "github",
+        "repo": "ringo380/claude-cpanel-mcp",
+        "ref": "v0.2.0"
+      },
+      "description": "cPanel UAPI MCP server — manage email, DNS, files, MySQL, SSL, cron, subdomains, and backups on shared cPanel hosting from Claude Code. Includes cPHulk lockout detection and guided /cpanel-mcp:setup.",
+      "homepage": "https://github.com/ringo380/claude-cpanel-mcp",
+      "repository": "https://github.com/ringo380/claude-cpanel-mcp",
+      "license": "MIT",
+      "author": {
+        "name": "Ryan Robson and Robworks Software LLC"
+      },
+      "category": "infrastructure",
+      "tags": ["mcp", "cpanel", "hosting", "dns", "email", "mysql", "ssl"],
+      "keywords": ["cpanel", "mcp", "hosting", "uapi", "dns", "email", "mysql", "ssl"]
     }
   ]
 }
