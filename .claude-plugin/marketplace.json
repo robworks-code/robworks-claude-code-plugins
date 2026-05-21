@@ -104,7 +104,7 @@
       "source": {
         "source": "github",
         "repo": "ringo380/claude-cpanel-mcp",
-        "ref": "v0.3.1"
+        "ref": "v0.4.0"
       },
       "description": "cPanel UAPI MCP server — manage email, DNS, files, MySQL, SSL, cron, subdomains, backups, autoresponders, mail filters, and FTP on shared cPanel hosting. Multi-account profiles with atomic token rotation, dry-run auth_test, cPHulk lockout detection, and a state-machine /cpanel-mcp:setup.",
       "homepage": "https://github.com/ringo380/claude-cpanel-mcp",
