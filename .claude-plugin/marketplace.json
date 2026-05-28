@@ -116,6 +116,24 @@
       "category": "infrastructure",
       "tags": ["mcp", "cpanel", "hosting", "dns", "email", "mysql", "ssl"],
       "keywords": ["cpanel", "mcp", "hosting", "uapi", "dns", "email", "mysql", "ssl"]
+    },
+    {
+      "name": "ableton",
+      "source": {
+        "source": "github",
+        "repo": "ringo380/ableton-mcp-max",
+        "ref": "v0.1.0"
+      },
+      "description": "Drive Ableton Live 11 from Claude Code — tracks, clips, MIDI notes, devices, mixer, automation, arrangement, scenes, and transport over a bundled MCP server. Includes a guided /ableton:setup plus best-practice workflow commands for building and editing tracks.",
+      "homepage": "https://github.com/ringo380/ableton-mcp-max",
+      "repository": "https://github.com/ringo380/ableton-mcp-max",
+      "license": "MIT",
+      "author": {
+        "name": "Ryan Robson and Robworks Software LLC"
+      },
+      "category": "creative",
+      "tags": ["mcp", "ableton", "ableton-live", "music", "daw", "midi", "audio"],
+      "keywords": ["ableton", "ableton-live", "mcp", "music", "daw", "midi", "audio"]
     }
   ]
 }
