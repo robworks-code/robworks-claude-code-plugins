@@ -122,9 +122,9 @@
       "source": {
         "source": "github",
         "repo": "ringo380/ableton-mcp-max",
-        "ref": "v0.2.0"
+        "ref": "v0.3.0"
       },
-      "description": "Drive Ableton Live 11 from Claude Code — tracks, clips, MIDI notes, devices, mixer, automation, arrangement, scenes, transport, and preset generation (Wavetable, Simpler, rack macros & zones) over a bundled MCP server. Includes a guided /ableton:setup plus best-practice workflow commands for building and editing tracks.",
+      "description": "Drive Ableton Live 11 from Claude Code — tracks, clips, MIDI notes, devices, mixer, automation, arrangement, scenes, transport, and preset generation (Wavetable, Simpler, rack macros & zones, and macro→parameter mappings) over a bundled MCP server. Includes a guided /ableton:setup plus best-practice workflow commands for building and editing tracks.",
       "homepage": "https://github.com/ringo380/ableton-mcp-max",
       "repository": "https://github.com/ringo380/ableton-mcp-max",
       "license": "MIT",
