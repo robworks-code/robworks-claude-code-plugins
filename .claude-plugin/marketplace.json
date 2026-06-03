@@ -134,6 +134,24 @@
       "category": "creative",
       "tags": ["mcp", "ableton", "ableton-live", "music", "daw", "midi", "audio"],
       "keywords": ["ableton", "ableton-live", "mcp", "music", "daw", "midi", "audio"]
+    },
+    {
+      "name": "notation",
+      "source": {
+        "source": "github",
+        "repo": "Robworks-Code/notation",
+        "ref": "v0.1.0"
+      },
+      "description": "Capture session learnings into the right Claude Code memory tier. /notation:notate routes each learning to global CLAUDE.md, ~/.claude/notes/, per-project MEMORY.md, or project docs, with a lean bias that keeps CLAUDE.md small. Ships a notation-audit skill that flags bloat, stale notes, and orphaned index entries.",
+      "homepage": "https://github.com/Robworks-Code/notation",
+      "repository": "https://github.com/Robworks-Code/notation",
+      "license": "MIT",
+      "author": {
+        "name": "Ryan Robson and Robworks Software LLC"
+      },
+      "category": "productivity",
+      "tags": ["claude-md", "memory", "notes", "documentation", "productivity", "context-management"],
+      "keywords": ["claude-md", "memory", "notes", "documentation", "productivity", "context-management"]
     }
   ]
 }
