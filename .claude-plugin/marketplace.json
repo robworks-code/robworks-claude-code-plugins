@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "A personal catalog of MCP servers and developer-workflow plugins for Claude Code, by Ryan Robson and Robworks Software LLC.",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   "plugins": [
     {
@@ -170,6 +170,24 @@
       "category": "developer-tools",
       "tags": ["code-review", "pull-request", "github", "triage", "agents", "developer-tools"],
       "keywords": ["code-review", "pull-request", "github", "triage", "agents", "developer-tools"]
+    },
+    {
+      "name": "colab",
+      "source": {
+        "source": "github",
+        "repo": "robworks-code/colab-mcp-extended",
+        "ref": "v1.3.0"
+      },
+      "description": "Drive Google Colab from Claude Code over a bundled MCP server — open Drive notebooks, run code in the kernel, manage multiple sessions, upload/download VM files, mount Drive, read Colab secrets, inspect variables, edit notebook cells, and run fine-tune round-trip + local MLX conversion helpers. Optional headless/Playwright backend. Includes guided /colab:setup and /colab:help commands.",
+      "homepage": "https://github.com/robworks-code/colab-mcp-extended",
+      "repository": "https://github.com/robworks-code/colab-mcp-extended",
+      "license": "MIT",
+      "author": {
+        "name": "Ryan Robson and Robworks Software LLC"
+      },
+      "category": "developer-tools",
+      "tags": ["mcp", "colab", "google-colab", "jupyter", "notebook", "gpu", "mlx"],
+      "keywords": ["colab", "google-colab", "mcp", "jupyter", "notebook", "gpu", "mlx", "fine-tuning"]
     }
   ]
 }
