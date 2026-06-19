@@ -140,9 +140,9 @@
       "source": {
         "source": "github",
         "repo": "Robworks-Code/notation",
-        "ref": "v0.3.0"
+        "ref": "v0.4.0"
       },
-      "description": "Capture session learnings into the right Claude Code memory tier. /notation:notate grounds itself in the session transcript and project profile, turns each learning into a routed proposal (global CLAUDE.md, ~/.claude/notes/, per-project MEMORY.md, or project docs), and applies them through an interactive picker, with a lean bias that keeps CLAUDE.md small. /notation:notate-all applies every proposal without the picker. Ships a notation-audit skill that flags bloat, stale notes, and orphaned index entries.",
+      "description": "Capture session learnings into the right Claude Code memory tier. /notation:notate reads the session first - classifying type, gauging volume, and identifying exercised tiers - then right-sizes the flow and announces the chosen shape before running it. Proposals are presented as a scorecard header plus per-tier tables with diffs below. Pass 'full' to force the complete flow. /notation:notate-all applies every proposal without the picker. Ships a notation-audit skill with the same structured reporting.",
       "homepage": "https://github.com/Robworks-Code/notation",
       "repository": "https://github.com/Robworks-Code/notation",
       "license": "MIT",
