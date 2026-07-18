@@ -16,7 +16,7 @@
         "repo": "ringo380/ga-mcp-full",
         "ref": "v0.5.0"
       },
-      "description": "GA4 MCP server with full Admin API read/write access — bundled with Claude Code auth helpers and SessionStart bootstrap.",
+      "description": "GA4 MCP server with full Admin API read/write access \u2014 bundled with Claude Code auth helpers and SessionStart bootstrap.",
       "homepage": "https://github.com/ringo380/ga-mcp-full",
       "repository": "https://github.com/ringo380/ga-mcp-full",
       "license": "MIT",
@@ -24,8 +24,18 @@
         "name": "Ryan Robson and Robworks Software LLC"
       },
       "category": "analytics",
-      "tags": ["mcp", "google-analytics", "ga4", "analytics"],
-      "keywords": ["google-analytics", "ga4", "mcp", "analytics"]
+      "tags": [
+        "mcp",
+        "google-analytics",
+        "ga4",
+        "analytics"
+      ],
+      "keywords": [
+        "google-analytics",
+        "ga4",
+        "mcp",
+        "analytics"
+      ]
     },
     {
       "name": "claude-quikgif",
@@ -34,7 +44,7 @@
         "repo": "ringo380/claude-quikgif",
         "ref": "v0.2.0"
       },
-      "description": "QuikGIF MCP integration for Claude Code — bundled MCP shim, session-start update notices, and lifecycle slash commands (status, install, update, install-mcp).",
+      "description": "QuikGIF MCP integration for Claude Code \u2014 bundled MCP shim, session-start update notices, and lifecycle slash commands (status, install, update, install-mcp).",
       "homepage": "https://quikgif.com",
       "repository": "https://github.com/ringo380/claude-quikgif",
       "license": "MIT",
@@ -42,8 +52,20 @@
         "name": "Ryan Robson and Robworks Software LLC"
       },
       "category": "productivity",
-      "tags": ["mcp", "quikgif", "screen-recording", "gif", "macos"],
-      "keywords": ["quikgif", "mcp", "screen-recording", "gif", "macos"]
+      "tags": [
+        "mcp",
+        "quikgif",
+        "screen-recording",
+        "gif",
+        "macos"
+      ],
+      "keywords": [
+        "quikgif",
+        "mcp",
+        "screen-recording",
+        "gif",
+        "macos"
+      ]
     },
     {
       "name": "namecheap-mcp",
@@ -52,7 +74,7 @@
         "repo": "ringo380/namecheap-mcp",
         "ref": "v1.5.0"
       },
-      "description": "Namecheap MCP server — manage domains, DNS, SSL, transfers, and account from Claude Code. Includes a guided /namecheap-mcp:setup command for first-run credentials.",
+      "description": "Namecheap MCP server \u2014 manage domains, DNS, SSL, transfers, and account from Claude Code. Includes a guided /namecheap-mcp:setup command for first-run credentials.",
       "homepage": "https://github.com/ringo380/namecheap-mcp",
       "repository": "https://github.com/ringo380/namecheap-mcp",
       "license": "MIT",
@@ -60,8 +82,22 @@
         "name": "Ryan Robson and Robworks Software LLC"
       },
       "category": "infrastructure",
-      "tags": ["mcp", "namecheap", "dns", "domains", "ssl", "registrar"],
-      "keywords": ["namecheap", "mcp", "dns", "domains", "ssl", "registrar"]
+      "tags": [
+        "mcp",
+        "namecheap",
+        "dns",
+        "domains",
+        "ssl",
+        "registrar"
+      ],
+      "keywords": [
+        "namecheap",
+        "mcp",
+        "dns",
+        "domains",
+        "ssl",
+        "registrar"
+      ]
     },
     {
       "name": "appstore-connect-mcp",
@@ -70,7 +106,7 @@
         "repo": "ringo380/appstore-connect-mcp",
         "ref": "v2.2.3"
       },
-      "description": "App Store Connect MCP server. Query 923 API endpoints and run authenticated calls — apps, reviews, sales reports, TestFlight, beta testers, and more.",
+      "description": "App Store Connect MCP server. Query 923 API endpoints and run authenticated calls \u2014 apps, reviews, sales reports, TestFlight, beta testers, and more.",
       "homepage": "https://github.com/ringo380/appstore-connect-mcp",
       "repository": "https://github.com/ringo380/appstore-connect-mcp",
       "license": "MIT",
@@ -78,8 +114,22 @@
         "name": "Ryan Robson and Robworks Software LLC"
       },
       "category": "developer-tools",
-      "tags": ["mcp", "apple", "app-store-connect", "ios", "appstore", "testflight"],
-      "keywords": ["app-store-connect", "mcp", "apple", "ios", "appstore", "testflight"]
+      "tags": [
+        "mcp",
+        "apple",
+        "app-store-connect",
+        "ios",
+        "appstore",
+        "testflight"
+      ],
+      "keywords": [
+        "app-store-connect",
+        "mcp",
+        "apple",
+        "ios",
+        "appstore",
+        "testflight"
+      ]
     },
     {
       "name": "xcode-mcp-server",
@@ -88,7 +138,7 @@
         "repo": "ringo380/Xcode-mcp-server",
         "ref": "v1.0.0"
       },
-      "description": "Xcode MCP server — build projects and run tests from Claude Code with structured output, log persistence, and Xcode 15/16+ compatibility.",
+      "description": "Xcode MCP server \u2014 build projects and run tests from Claude Code with structured output, log persistence, and Xcode 15/16+ compatibility.",
       "homepage": "https://github.com/ringo380/Xcode-mcp-server",
       "repository": "https://github.com/ringo380/Xcode-mcp-server",
       "license": "MIT",
@@ -96,8 +146,25 @@
         "name": "Ryan Robson and Robworks Software LLC"
       },
       "category": "developer-tools",
-      "tags": ["mcp", "xcode", "ios", "swift", "build", "tests", "apple"],
-      "keywords": ["xcode", "mcp", "ios", "swift", "build", "tests", "apple", "developer-tools"]
+      "tags": [
+        "mcp",
+        "xcode",
+        "ios",
+        "swift",
+        "build",
+        "tests",
+        "apple"
+      ],
+      "keywords": [
+        "xcode",
+        "mcp",
+        "ios",
+        "swift",
+        "build",
+        "tests",
+        "apple",
+        "developer-tools"
+      ]
     },
     {
       "name": "cpanel-mcp",
@@ -106,7 +173,7 @@
         "repo": "ringo380/claude-cpanel-mcp",
         "ref": "v0.4.0"
       },
-      "description": "cPanel UAPI MCP server — manage email, DNS, files, MySQL, SSL, cron, subdomains, backups, autoresponders, mail filters, and FTP on shared cPanel hosting. Multi-account profiles with atomic token rotation, dry-run auth_test, cPHulk lockout detection, and a state-machine /cpanel-mcp:setup.",
+      "description": "cPanel UAPI MCP server \u2014 manage email, DNS, files, MySQL, SSL, cron, subdomains, backups, autoresponders, mail filters, and FTP on shared cPanel hosting. Multi-account profiles with atomic token rotation, dry-run auth_test, cPHulk lockout detection, and a state-machine /cpanel-mcp:setup.",
       "homepage": "https://github.com/ringo380/claude-cpanel-mcp",
       "repository": "https://github.com/ringo380/claude-cpanel-mcp",
       "license": "MIT",
@@ -114,8 +181,25 @@
         "name": "Ryan Robson and Robworks Software LLC"
       },
       "category": "infrastructure",
-      "tags": ["mcp", "cpanel", "hosting", "dns", "email", "mysql", "ssl"],
-      "keywords": ["cpanel", "mcp", "hosting", "uapi", "dns", "email", "mysql", "ssl"]
+      "tags": [
+        "mcp",
+        "cpanel",
+        "hosting",
+        "dns",
+        "email",
+        "mysql",
+        "ssl"
+      ],
+      "keywords": [
+        "cpanel",
+        "mcp",
+        "hosting",
+        "uapi",
+        "dns",
+        "email",
+        "mysql",
+        "ssl"
+      ]
     },
     {
       "name": "ableton",
@@ -132,8 +216,24 @@
         "name": "Ryan Robson and Robworks Software LLC"
       },
       "category": "creative",
-      "tags": ["mcp", "ableton", "ableton-live", "music", "daw", "midi", "audio"],
-      "keywords": ["ableton", "ableton-live", "mcp", "music", "daw", "midi", "audio"]
+      "tags": [
+        "mcp",
+        "ableton",
+        "ableton-live",
+        "music",
+        "daw",
+        "midi",
+        "audio"
+      ],
+      "keywords": [
+        "ableton",
+        "ableton-live",
+        "mcp",
+        "music",
+        "daw",
+        "midi",
+        "audio"
+      ]
     },
     {
       "name": "notation",
@@ -150,8 +250,22 @@
         "name": "Ryan Robson and Robworks Software LLC"
       },
       "category": "productivity",
-      "tags": ["claude-md", "memory", "notes", "documentation", "productivity", "context-management"],
-      "keywords": ["claude-md", "memory", "notes", "documentation", "productivity", "context-management"]
+      "tags": [
+        "claude-md",
+        "memory",
+        "notes",
+        "documentation",
+        "productivity",
+        "context-management"
+      ],
+      "keywords": [
+        "claude-md",
+        "memory",
+        "notes",
+        "documentation",
+        "productivity",
+        "context-management"
+      ]
     },
     {
       "name": "deep-review",
@@ -168,8 +282,22 @@
         "name": "Ryan Robson and Robworks Software LLC"
       },
       "category": "developer-tools",
-      "tags": ["code-review", "pull-request", "github", "triage", "agents", "developer-tools"],
-      "keywords": ["code-review", "pull-request", "github", "triage", "agents", "developer-tools"]
+      "tags": [
+        "code-review",
+        "pull-request",
+        "github",
+        "triage",
+        "agents",
+        "developer-tools"
+      ],
+      "keywords": [
+        "code-review",
+        "pull-request",
+        "github",
+        "triage",
+        "agents",
+        "developer-tools"
+      ]
     },
     {
       "name": "colab",
@@ -178,7 +306,7 @@
         "repo": "robworks-code/colab-mcp-extended",
         "ref": "v1.3.0"
       },
-      "description": "Drive Google Colab from Claude Code over a bundled MCP server — open Drive notebooks, run code in the kernel, manage multiple sessions, upload/download VM files, mount Drive, read Colab secrets, inspect variables, edit notebook cells, and run fine-tune round-trip + local MLX conversion helpers. Optional headless/Playwright backend. Includes guided /colab:setup and /colab:help commands.",
+      "description": "Drive Google Colab from Claude Code over a bundled MCP server \u2014 open Drive notebooks, run code in the kernel, manage multiple sessions, upload/download VM files, mount Drive, read Colab secrets, inspect variables, edit notebook cells, and run fine-tune round-trip + local MLX conversion helpers. Optional headless/Playwright backend. Includes guided /colab:setup and /colab:help commands.",
       "homepage": "https://github.com/robworks-code/colab-mcp-extended",
       "repository": "https://github.com/robworks-code/colab-mcp-extended",
       "license": "MIT",
@@ -186,8 +314,55 @@
         "name": "Ryan Robson and Robworks Software LLC"
       },
       "category": "developer-tools",
-      "tags": ["mcp", "colab", "google-colab", "jupyter", "notebook", "gpu", "mlx"],
-      "keywords": ["colab", "google-colab", "mcp", "jupyter", "notebook", "gpu", "mlx", "fine-tuning"]
+      "tags": [
+        "mcp",
+        "colab",
+        "google-colab",
+        "jupyter",
+        "notebook",
+        "gpu",
+        "mlx"
+      ],
+      "keywords": [
+        "colab",
+        "google-colab",
+        "mcp",
+        "jupyter",
+        "notebook",
+        "gpu",
+        "mlx",
+        "fine-tuning"
+      ]
+    },
+    {
+      "name": "sharding",
+      "source": {
+        "source": "github",
+        "repo": "robworks-code/sharding",
+        "ref": "v0.0.1"
+      },
+      "description": "Develop a product as isolated shards coupled only through a frozen, versioned contract, with drift caught mechanically. A Claude Code plugin plus a deterministic engine: SessionStart/PreToolUse/Stop hooks sandbox each shard to its own slice and a read-only contract, and /shard-* commands diff a shard's surface against the contract and gate phases.",
+      "homepage": "https://github.com/robworks-code/sharding",
+      "repository": "https://github.com/robworks-code/sharding",
+      "license": "MIT",
+      "author": {
+        "name": "Ryan Robson and Robworks Software LLC"
+      },
+      "category": "developer-tools",
+      "tags": [
+        "claude-code",
+        "contract-first",
+        "isolation",
+        "spec-driven",
+        "monorepo"
+      ],
+      "keywords": [
+        "sharding",
+        "contract-first",
+        "isolation",
+        "spec-driven",
+        "monorepo"
+      ]
     }
   ]
 }
