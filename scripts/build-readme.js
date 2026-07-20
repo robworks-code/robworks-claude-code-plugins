@@ -42,8 +42,8 @@ function repoUrl(plugin) {
 
 function renderMarkdownTable(plugins) {
   const lines = [];
-  lines.push("| Plugin | Category | Description | Pinned | Source |");
-  lines.push("| --- | --- | --- | --- | --- |");
+  lines.push("| Plugin | Category | Description | License | Pinned | Source |");
+  lines.push("| --- | --- | --- | --- | --- | --- |");
   for (const p of plugins) {
     const name = `[\`${p.name}\`](${repoUrl(p)})`;
     const cat = p.category || "";
@@ -52,7 +52,10 @@ function renderMarkdownTable(plugins) {
     const ru = refUrl(p);
     const pin = rl ? (ru ? `[\`${rl}\`](${ru})` : `\`${rl}\``) : "_default branch_";
     const repoShort = p.source?.repo ? `[${p.source.repo}](${repoUrl(p)})` : "";
-    lines.push(`| ${name} | ${cat} | ${desc} | ${pin} | ${repoShort} |`);
+    // Shown because the catalog mixes licenses: anything not open source
+    // should be visible before someone installs it, not after.
+    const license = p.license ? `\`${escapeMdPipe(p.license)}\`` : "_unstated_";
+    lines.push(`| ${name} | ${cat} | ${desc} | ${license} | ${pin} | ${repoShort} |`);
   }
   return lines.join("\n");
 }
