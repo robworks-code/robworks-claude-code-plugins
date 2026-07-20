@@ -272,9 +272,9 @@
       "source": {
         "source": "github",
         "repo": "Robworks-Code/deep-review",
-        "ref": "v0.2.0"
+        "ref": "v0.3.0"
       },
-      "description": "Multi-agent pull request review that surfaces every finding instead of hiding low-confidence ones. /deep-review:review scores each issue on confidence and severity, verifies impactful-but-uncertain ones, then presents a two-axis triage in-session and posts to the PR on confirm. /deep-review:auto double-checks then auto-applies fixes for every issue to the working tree and posts a summary comment - no confirmation.",
+      "description": "Multi-agent pull request review that surfaces every finding instead of hiding low-confidence ones. /deep-review:review scores each issue on confidence and severity, verifies impactful-but-uncertain ones, then presents a two-axis triage in-session and posts to the PR on confirm. /deep-review:auto double-checks then auto-applies a fix for every issue to the working tree, runs the repo's local gate to verify them, and confirms every fix survived the run. Works with or without a PR, tolerates a dirty tree without touching unrelated uncommitted work, and never assumes CI exists.",
       "homepage": "https://github.com/Robworks-Code/deep-review",
       "repository": "https://github.com/Robworks-Code/deep-review",
       "license": "MIT",
