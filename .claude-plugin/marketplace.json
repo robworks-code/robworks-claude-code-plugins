@@ -339,7 +339,7 @@
       "source": {
         "source": "github",
         "repo": "robworks-code/sharding",
-        "ref": "v0.0.4"
+        "ref": "v0.0.5"
       },
       "description": "Develop a product as isolated shards coupled only through a frozen, versioned contract, with drift caught mechanically. A Claude Code plugin plus a deterministic engine: SessionStart/PreToolUse/Stop hooks sandbox each shard to its own slice and a read-only contract, and /shard-* commands diff a shard's surface against the contract and gate phases.",
       "homepage": "https://github.com/robworks-code/sharding",
