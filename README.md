@@ -14,7 +14,7 @@ A **marketplace** is a catalog of plugins you can install into Claude Code. Addi
 ## Add the marketplace
 
 ```bash
-claude plugin marketplace add ringo380/robworks-claude-code-plugins
+claude plugin marketplace add robworks-code/robworks-claude-code-plugins
 ```
 
 This clones the catalog into `~/.claude/plugins/marketplaces/` and registers it under the name `robworks-claude-code-plugins`. Plugins themselves are only downloaded on install.
@@ -22,7 +22,7 @@ This clones the catalog into `~/.claude/plugins/marketplaces/` and registers it 
 Inside an interactive Claude Code session, you can use the slash-command equivalent:
 
 ```
-/plugin marketplace add ringo380/robworks-claude-code-plugins
+/plugin marketplace add robworks-code/robworks-claude-code-plugins
 ```
 
 ## Browse and install plugins
@@ -110,7 +110,7 @@ Add to a project's `.claude/settings.json` so teammates are prompted to trust it
     "robworks-claude-code-plugins": {
       "source": {
         "source": "github",
-        "repo": "ringo380/robworks-claude-code-plugins"
+        "repo": "robworks-code/robworks-claude-code-plugins"
       }
     }
   },
@@ -155,7 +155,7 @@ Git operations default to a 120s timeout. Bump it for slow networks:
 
 ```bash
 export CLAUDE_CODE_PLUGIN_GIT_TIMEOUT_MS=300000  # 5 minutes
-claude plugin marketplace add ringo380/robworks-claude-code-plugins
+claude plugin marketplace add robworks-code/robworks-claude-code-plugins
 ```
 
 ### Plugin install fails with authentication errors
@@ -185,7 +185,7 @@ See [`strictKnownMarketplaces`](https://code.claude.com/docs/en/settings#strictk
 ```json
 {
   "strictKnownMarketplaces": [
-    { "source": "github", "repo": "ringo380/robworks-claude-code-plugins" }
+    { "source": "github", "repo": "robworks-code/robworks-claude-code-plugins" }
   ]
 }
 ```
