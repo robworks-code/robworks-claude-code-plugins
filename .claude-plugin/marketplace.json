@@ -363,6 +363,36 @@
         "spec-driven",
         "monorepo"
       ]
+    },
+    {
+      "name": "audacity",
+      "source": {
+        "source": "github",
+        "repo": "robworks-code/audacity-mcp-max",
+        "ref": "v0.3.0"
+      },
+      "description": "Drive Audacity from Claude Code - 132 tools plus one-call cleanup and mastering pipelines, with guided setup and diagnostics.",
+      "homepage": "https://github.com/robworks-code/audacity-mcp-max",
+      "repository": "https://github.com/robworks-code/audacity-mcp-max",
+      "license": "Apache-2.0",
+      "author": {
+        "name": "Ryan Robson and Robworks Software LLC"
+      },
+      "category": "developer-tools",
+      "tags": [
+        "audio",
+        "audacity",
+        "mastering",
+        "podcast"
+      ],
+      "keywords": [
+        "audacity",
+        "audio",
+        "mcp",
+        "mastering",
+        "podcast",
+        "transcription"
+      ]
     }
   ]
 }
