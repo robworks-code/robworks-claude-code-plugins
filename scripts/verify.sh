@@ -28,7 +28,7 @@ for p in plugins:
     for field in ('name', 'source', 'description', 'license', 'repository'):
         assert p.get(field), 'plugin %s is missing %s' % (p.get('name'), field)
     src = p['source']
-    assert src.get('repo'), 'plugin %s has no source repo' % p['name']
+    assert src.get('repo') or src.get('url'), 'plugin %s has no source repo or url' % p['name']
 print('ok: %d plugins, no duplicates, all required fields present' % len(plugins))
 "
 [ $? -eq 0 ] || note_failure "marketplace.json" $?
