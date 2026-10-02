@@ -393,6 +393,37 @@
         "podcast",
         "transcription"
       ]
+    },
+    {
+      "name": "icloud-mcp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/robworks-code/icloud-mcp.git",
+        "ref": "v0.1.0"
+      },
+      "description": "MCP server for iCloud Drive that works whether or not files are synced locally: list, search, read, download, upload, write, mkdir, rename, move, trash, and restore. iCloud is the source of truth; a hydrated local copy is used for reads when present. Needs uv and a one-time icloud-mcp login.",
+      "homepage": "https://github.com/robworks-code/icloud-mcp",
+      "repository": "https://github.com/robworks-code/icloud-mcp",
+      "license": "MIT",
+      "author": {
+        "name": "Ryan Robson and Robworks Software LLC"
+      },
+      "category": "productivity",
+      "tags": [
+        "mcp",
+        "icloud",
+        "icloud-drive",
+        "pyicloud",
+        "files"
+      ],
+      "keywords": [
+        "icloud",
+        "icloud-drive",
+        "mcp",
+        "pyicloud",
+        "files",
+        "file-management"
+      ]
     }
   ]
 }
