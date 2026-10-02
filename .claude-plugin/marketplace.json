@@ -365,37 +365,6 @@
       ]
     },
     {
-      "name": "icloud-drive-mcp",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/robworks-code/icloud-drive-mcp.git",
-        "ref": "v1.1.0"
-      },
-      "description": "MCP server for managing iCloud Drive files via the local sync folder: list, read, write, delete, move, and search files, plus file/dir info. Works on macOS and Windows.",
-      "homepage": "https://github.com/robworks-code/icloud-drive-mcp",
-      "repository": "https://github.com/robworks-code/icloud-drive-mcp",
-      "license": "MIT",
-      "author": {
-        "name": "Ryan Robson and Robworks Software LLC"
-      },
-      "category": "productivity",
-      "tags": [
-        "mcp",
-        "icloud",
-        "icloud-drive",
-        "macos",
-        "files"
-      ],
-      "keywords": [
-        "icloud",
-        "icloud-drive",
-        "mcp",
-        "macos",
-        "files",
-        "file-management"
-      ]
-    },
-    {
       "name": "audacity",
       "source": {
         "source": "url",
