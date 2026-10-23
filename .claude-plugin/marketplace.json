@@ -206,12 +206,12 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ringo380/ableton-mcp-max.git",
-        "ref": "v0.34.0"
+        "ref": "v0.35.0"
       },
-      "description": "Drive Ableton Live 11 and 12 from Claude Code - tracks, clips, MIDI notes, devices, mixer, automation, arrangement, scenes, transport, and preset generation (Wavetable, Simpler, rack macros & zones, and macro->parameter mappings) over a bundled MCP server. Includes a guided /ableton:setup, a /ableton:analyze best-practice set report, plus workflow commands for building and editing tracks.",
+      "description": "Drive Ableton Live 11 and 12 from Claude Code on macOS and Windows - tracks, clips, MIDI notes, devices, mixer, automation, arrangement, scenes, transport, stem import, Ozone mastering, and preset generation (Wavetable, Simpler, rack macros & zones, and macro->parameter mappings) over a bundled MCP server. Includes a guided /ableton:setup, a /ableton:analyze best-practice set report, plus workflow commands for building and editing tracks.",
       "homepage": "https://ringo380.github.io/ableton-mcp-max/",
       "repository": "https://github.com/ringo380/ableton-mcp-max",
-      "license": "MIT",
+      "license": "PolyForm-Noncommercial-1.0.0",
       "author": {
         "name": "Ryan Robson and Robworks Software LLC"
       },
